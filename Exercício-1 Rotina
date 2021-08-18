@@ -1,0 +1,32 @@
+Rotina Matinal
+
+ Despertador toca
+ abrir os olhos
+ pegar o despertador
+ se despertador estiver tocando então
+    desligar 
+	senão largar e esperar ele ativar novamente então
+ 	      desligar	
+ 	fim senão
+ fim se
+ sair da cama
+ ir em dreção ao banheiro
+ verificar banheiro
+ se o banheiro esta desocupado então
+    entrar senão esperar 
+           enquanto espera 
+                    ir para cozinha conferir quantidade de café
+                    se tiver café suficiente então 
+			 retornar ao banheiro senão
+                         perparar mais café então retornar ao banheiro
+                         fim senão
+                    fim se
+           fim enquato
+    fim senão
+ fim se
+ enquanto dentro do banheiro
+	lavar e secar o rosto
+      escovar os dentes
+ fim enquanto    
+ retornar a quarto
+ trocar de roupa      

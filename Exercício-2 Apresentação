@@ -1,0 +1,16 @@
+var nomeCompleto = prompt('Qual o seu nome completo?');
+var apelido = prompt('Qual o seu apelido?');
+var idade = parseInt( prompt("Qual é a sua idade?"));
+var dataNascimento = prompt('Qual a sua data de nascimento?');
+var localNascimento = prompt('Qual cidade você nasceu?');
+var altura = prompt("Qual é a sua altura?");
+var trabalhando = prompt('Você está trabalnhado no momento? 1 para sim e 2 para não.');
+
+var trabalho;
+
+if (trabalhando == 1) {trabalho = 'empregado'}
+else  {trabalho = 'desempregado'};
+
+var apresentacao = "Meu nome é " + nomeCompleto + " (sou conhecido[a] como " + apelido + ") e tenho " + idade + " anos. Nasci no dia " + dataNascimento + ", na cidade de " + localNascimento + ". Tenho " + altura + "m de altura e atualmente estou " + trabalho + ".";
+
+console.log(apresentacao);

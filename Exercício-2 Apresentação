@@ -1,3 +1,5 @@
+//o exercício foi feito no CodePen
+
 var nomeCompleto = prompt('Qual o seu nome completo?');
 var apelido = prompt('Qual o seu apelido?');
 var idade = parseInt( prompt("Qual é a sua idade?"));

@@ -1,0 +1,69 @@
+//Verificação de igualdade
+
+nomeDoFulano = 'Fulano';
+nomeDoBeltrano = 'Beltrano';
+
+mesmoNome = (nomeDoFulano == nomeDoBeltrano);
+
+console.log(mesmoNome);
+---------------------------------------------------
+
+//Verificação de idade
+
+idade = 18;
+maiorDeIdade; 
+
+if (idade >= 18) {maiorDeIdade = 'Adulto'}
+  else {maiorDeIdade = 'Você não é adulto'}
+
+console.log(maiorDeIdade);
+--------------------------------------------------
+
+//Valor com Juros
+
+valor = 100
+juros = 10
+
+valorComJuros = (juros / 100 + 1) * valor 
+--------------------------------------------------
+
+//Média
+
+item1 = 10
+item2 = 30
+item3 = 50
+item4 = 70
+item5 = 90
+
+media = (item1 + item2 + item3 + item4 + item5) / 5
+----------------------------------------------------
+
+//Margem bruta da empresa
+
+receitaLiquidaVendas = 100
+custoProdutoVendido = 30
+
+
+lucroBruto = receitaLiquidaVendas - custoProdutoVendido
+
+margemBruta = (lucroBruto / receitaLiquidaVendas) * 100
+
+console.log(margemBruta + "%")
+-----------------------------------------------------
+
+//Saldo na conta
+
+saldo = 1000.00
+calca = 99.90
+salario = 2500.00
+doacao = 0.10
+arCondicionado = 0.25
+divida = 0.5
+
+saldoAtual1 = (saldo - calca + salario - doacao)
+
+saldoAtual2 = saldoAtual1 - (saldoAtual1 * arCondicionado) 
+
+saldoAtual3 = saldoAtual2 * divida
+
+console.log('Seu saldo atual é R$' + saldoAtual3 + ' após pagar todas as suas dívidas.')

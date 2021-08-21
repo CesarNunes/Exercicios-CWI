@@ -1,0 +1,43 @@
+var altura = prompt("Sua altura é:(use ponto para separar.)");
+var peso = prompt("Seu peso é");
+
+
+imc = (peso / (altura *altura));
+
+
+var grau = "";
+
+
+if (imc <= 18.50) {
+  grau = "0 (magreza)"
+} 
+  else if (imc <= 24.99 ) {
+    grau = "0 (normal)"
+  }
+  else if (imc <= 29.99) {
+    grau = "1 (sobrepeso)"
+  }
+  else if (imc <= 39.99) {
+    grau = "2 (obesidade)"
+  }
+  else {
+    grau = "3 (obesidade grave)"
+  }
+   
+console.log('Seu IMC é: ' + imc.toFixed(2))
+console.log('Seu grau de obesdade é: ' + grau)
+
+switch (grau) {
+  case "1 (sobrepeso)":
+    console.log('Cuidado! Você está acima do peso recomendado pela OMS.')
+  break;
+    
+  case "2 (obesidade)":
+    console.log('Cuidado! Você está acima do peso recomendado pela OMS.')
+  break;
+    
+  case "3 (obesidade grave)":
+    console.log('Cuidado! Você está acima do peso recomendado pela OMS.')
+    console.log('É importante procurar um médico para avaliar sua saúde.')
+  break;
+}

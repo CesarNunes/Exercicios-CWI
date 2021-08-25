@@ -1,0 +1,44 @@
+//Apresentação de array
+
+var numeros = [10,20,30,40,50]
+var repeticao = [0];
+do{
+  console.log(numeros[repeticao]);
+  repeticao++;
+}while(repeticao < numeros.length)
+
+-------------------------------------------------------------
+// Média aritmética de um array
+
+var num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+var cal = [0];
+var final = 0;
+    
+for(cal = 0; cal < num.length; cal++){
+  final = final + num[cal]
+}
+
+var media = final / num.length;
+console.log(media)
+
+------------------------------------------------------------
+//Verificação de nome
+
+var nomesComuns = ["Miguel", "Laura", "Lucas", "Beatriz", "Guilherme", "Maria", "Gabriel", "Ana", "Arthur", "Júlia", 
+"Enzo", "Alice", "Rafael", "Mariana", "João", "Larissa", "Gustavo", "Maria Eduarda", "Pedro", "Sofia", 
+"Bernardo", "Isabela", "Matheus", "Helena", "Davi", "Camila", "Heitor", "Lara", "Henrique", "Valentina", 
+"Bruno", "Letícia", "Samuel", "Luana", "Felipe", "Amanda", "Lorenzo", "Yasmin", "Benjamin", "Sophia", 
+"Vinícius", "Rebeca", "Rodrigo", "Juliana", "Eduardo", "Bruna", "Diego", "Cecília", "Antônio", "Fernanda", 
+"Leonardo", "Isadora", "Noah", "Lorena", "Nícolas", "Lívia", "Daniel", "Manuela", "Thiago", "Vitória"];
+var meuNome = 'César';
+var comp = [0];
+
+while(comp <= nomesComuns.length){ comp++;
+  if (nomesComuns[comp] == meuNome) {
+    console.log('É, nome comum :P');
+    break;
+  } else {
+    comp++;
+      }
+  } if (nomesComuns[comp] != meuNome)
+console.log('Diferentão, hein? XD');

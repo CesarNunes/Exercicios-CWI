@@ -33,7 +33,7 @@ var nomesComuns = ["Miguel", "Laura", "Lucas", "Beatriz", "Guilherme", "Maria", 
 var meuNome = 'César';
 var comp = [0];
 
-while(comp <= nomesComuns.length){ comp++;
+while(comp <= nomesComuns.length){
   if (nomesComuns[comp] == meuNome) {
     console.log('É, nome comum :P');
     break;
@@ -42,3 +42,12 @@ while(comp <= nomesComuns.length){ comp++;
       }
   } if (nomesComuns[comp] != meuNome)
 console.log('Diferentão, hein? XD');
+
+/*for (comp = 0; comp < nomesComuns.length; comp++){
+  if (nomesComuns[comp] == meuNome){
+    console.log('É, nome comum :P');
+    break;
+  }
+}if (nomesComuns[comp] != meuNome){
+  console.log('Diferentão, hein? XD');
+}*/

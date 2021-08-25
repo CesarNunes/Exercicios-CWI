@@ -1,0 +1,64 @@
+// Imprimir algo na tela
+function imprimir(i){
+  console.log(i);
+}
+imprimir("_____Imprimir_na_tela__________");
+
+// Verificação se é o mesmo nome
+var nomeDoFulano = 'Fulano';
+var nomeDoBeltrano = "Beltrano";
+
+function mesmoNome (f,b){
+  return f == b
+}
+var nomes = mesmoNome (nomeDoFulano, nomeDoBeltrano);
+
+imprimir("______Mesmo_nome_______________");
+imprimir(nomes);
+
+// Verificação maior de idade
+function maiorDeIdade (x){
+  return x >= 18
+}
+
+imprimir("_______Maior_de_idade__________");
+imprimir (maiorDeIdade(15));
+imprimir (maiorDeIdade(18));
+imprimir (maiorDeIdade(19));
+
+// Calculo de juros
+var valor = 100; //variaveis para mudar valores
+var juros = 10;
+
+function valorComJuros (v,j){
+  return v * (j/100 + 1)
+}
+imprimir("_____Valor_com_juros__________");
+imprimir(valorComJuros(valor, juros).toFixed(2));
+
+// Fazer a média de alguns valores
+var numeros = [10,20,30,40,5];
+var arr = [0];
+var soma = 0;
+var test;          
+function mediaAritmetica (n){
+  for (arr = 0; arr < numeros.length; arr++){
+    soma = soma + numeros[arr]
+  }
+  return test = soma / numeros.length
+}
+imprimir('_______Média_aritmética________');
+mediaAritmetica(numeros);
+imprimir(test);
+
+
+// Calcular a margem bruta de uma empresa
+
+function margemBruta ( r, c) { //r= receita bruta das vendas e c= custo dos produtos vendidos 
+  lucroBruto = r - c;
+ return margemBruta = (lucroBruto / r) * 100
+}
+
+imprimir('_______Margem_Bruta________');
+//imprimir(margemBruta(600,300) + '%');
+imprimir(margemBruta(528459.11, 632501.87).toFixed(2) + '%')
